@@ -6,6 +6,7 @@ export default function handler(req, res) {
 
   res.status(200).json({
     success: true,
+    author: "Kalyan Srinivas (@Revenge_mode)",
     joke: randomJoke
   });
 }
